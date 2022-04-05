@@ -28,7 +28,7 @@ buttonReset.addEventListener('click', () => {
 
 let startTime = () => {
   tens++;
-  console.log(tens);
+
   if (tens <= 9) {
     outputTens.innerHTML = '0' + tens;
   }
